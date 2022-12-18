@@ -1,0 +1,481 @@
+
+/*Start styling the header*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.header-sec{
+    display: flex;
+    border-bottom: solid 2px; color: black;
+    background-color: rgb(0, 255, 255);
+}
+
+
+#logo-div{
+    width: 20%;
+}
+#menu-bar-div{
+    width: 80%;
+}
+
+#logo{
+    width: 90px;
+}
+
+#menu-bar-div ul{
+    display: flex;
+    float: right;
+}
+
+#menu-bar-div ul li{
+    list-style-type: none;
+}
+
+#menu-bar-div ul li a{
+text-decoration-line: none;
+font-size: 20px;
+text-transform: uppercase;
+margin-left: 10px;
+margin-right: 10px;
+color: black;
+}
+
+/*End of styling the header section*/
+
+/*Start styling the hero section*/
+.hero-sec{
+    background-image: url('../images/owl\ studios.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 450px;
+}
+
+
+.sec-3{
+    display: flex;
+    background-color: rgb(40, 237, 175);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-div{
+    width: 100%;
+}
+
+.image-div{
+    width: 100%;
+    float: right;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+
+#hero-div h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    vertical-align: sub;
+
+
+
+}
+
+/*End of styling the hero-sec*/
+
+/*Start of styling of section 3*/
+
+#section-3{
+    display: flex;
+}
+
+#my-h2{
+    text-align: center;
+    font-size: 2em;
+    font-family: candara;
+    text-decoration: rgb(120, 10, 10);
+    text-transform: uppercase;
+    list-style: none;
+
+    
+}
+
+.my-para1{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
+#section-3{
+    display: flex;
+}
+
+
+
+
+.About-header{
+    background-image: url('../images/dog\ IMG_2096.JPG');
+    background-size: cover;
+
+}
+
+.Overlay{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-title{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: candara;
+}
+
+.little-history{
+    clear: both;
+    background-color: aqua;
+}
+
+.history-col{
+    width: 47%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aqua;
+}
+
+.history-header{
+    font-size: 22px;
+    color: black;
+    font-family: candara;
+    text-transform: uppercase;
+}
+
+.history-description{
+    font-family: candara;
+    color: black;
+}
+
+.history-image{
+    width: 100%;
+}
+
+.cols-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+#section-3{
+    display: flex;
+}
+
+.div-image{
+    width: 40%;
+}
+.mid-div-text{
+    width: 30%;
+    background-color: burlywood;
+}
+
+.what-we-do{
+    text-align: justify;
+    font-size: 20px;
+    font-family: candara;
+    text-transform: uppercase;
+    padding-top: 30px;
+    background-color: darkolivegreen;
+}
+
+.donate-to-our-company{
+    text-align: center;
+    font-family: candara;
+    background-image: url('../images/wesite\ logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+
+#my-button{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+.our-team{
+    display: flex;
+    padding: 25px 25px;
+    background-color: coral;
+}
+
+.the-company{
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 80%;
+}
+
+.my-team-header1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: candara;
+    font-size: 23px;
+    color: currentColor;
+    justify-content: center;
+    flex: none;
+    -ms-flex-align: center;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: rgba(60, 116, 84, 0.744);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex: wrap;
+
+}
+
+.social-icon li{
+    list-style: none;
+
+}
+
+.social-icon li a{
+    font-size: 2.5em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.4s;
+
+}
+
+.social-icon li a:hover{
+    transform: translateX(-10px);
+
+}
+
+#my-h2 ul li{
+    list-style: none;
+}
+
+#my-h2 ul li{
+    list-style: none;
+}
+
+#my-btn{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    border: solid 2px black;
+    border-radius: 20px;
+
+}
+
+#my-btn{
+    list-style: none;
+}
+
+.menu{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 10px;
+    display: inline-block;
+    list-style: none;
+
+}
+
+footer.wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 80%;
+    height: 80px;
+    background-color: url('../images/wave.jpg');
+    background-size: -1000px -100px;
+}
+
+footer{
+    position: relative;
+    width: auto;
+    background-color: rgb(40, 54, 55);
+    min-height: 100px;
+    padding: -20px -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .menu linearGradient{
+    font-size: 1.2em;
+    color: antiquewhite;
+    margin: 0px -10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+    opacity: 0;
+}
+
+footer .wave#wave1
+{
+    z-index: 1000;
+    opacity: -1;
+    bottom: -0;
+    animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2
+{
+    z-index: 999;
+    opacity: -0.5;
+    bottom: -10px;
+    animation: animateWave 4s linear infinite;
+}
+
+@keyframes animateWave
+{
+    0%
+    {
+        background-position-x: -1000px;
+    }
+    100%
+    {
+        background-position-x: -0px;
+    }
+}
+
+.social-icon,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex: wrap;
+}
+
+footer .social-icon li a,
+.menu li a{
+    font-size: 2em;
+    color: burlywood;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.social-icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .menu li a{
+    font-size: 1.2em;
+    color: beige;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+    opacity: -1;
+}
+
+footer p{
+    color: rgb(232, 236, 243);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer .wave
+{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('../images/wave.jpg');
+    background-size: -1000px -100px;
+}
+
+footer .wave#wave1
+{
+    z-index: -1000;
+    opacity: 0;
+    bottom: -1;
+    animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2
+{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: -10px;
+    animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave3
+{
+    z-index: -1000;
+    opacity: -0.2;
+    bottom: -15px;
+    animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4
+{
+    z-index: -999;
+    opacity: -0.7;
+    bottom: -20px;
+    animation: animateWave 4s linear infinite;
+}
+
+.Team{
+    text-align: center;
+}
+
+.copyright{
+    flex-direction: column;
+}
+
+#my-btn-1{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    border: solid 2px black;
+    border-radius: 20px;
+    list-style: none;
+
+}
+
+.mid-div-text ul li{
+    list-style: none;
+}
+ 
